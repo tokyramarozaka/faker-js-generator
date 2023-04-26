@@ -40,7 +40,7 @@ let course = createCourseFakeData(1000);
 
 data += course.courseFakeData;
 
-fs.writeFile("junk_courses_data.sql", data, function (err) {
+fs.writeFile("courses.sql", data, function (err) {
     if (err) {
         throw err;
     }
