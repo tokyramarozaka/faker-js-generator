@@ -40,3 +40,5 @@ export function seedCourses(rowsNumber, filename) {
         }
     }
 }
+
+seedCourses(1000, 'course');
