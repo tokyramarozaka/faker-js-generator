@@ -16,7 +16,7 @@ for (let i = 1; i <= numberOfRows; i++){
 
 
 
-fs.writeFile('result_2.sql', data, (err) => {
+fs.writeFile('course.sql', data, (err) => {
     if (err){
         console.log(err);
     }
